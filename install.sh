@@ -52,15 +52,15 @@ fi
 
 case $1 in
 	install)
-	Install
-	;;
+		Install
+		;;
 	installrc)
-	InstallVimRc
-	;;
+		InstallVimRc
+		;;
 	clean)
-	Clean
-	;;
+		Clean
+		;;
 	*)
-	Usage
-	;;
+		Usage
+		;;
 esac
