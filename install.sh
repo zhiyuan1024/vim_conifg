@@ -43,7 +43,7 @@ Clean() {
 }
 
 Usage() {
-	echo "usage: $0 install|installrc|clean"
+	echo "usage: $0 install|installrc|clean|buildycm"
 }
 
 if [ $# != 1 ]; then
@@ -56,6 +56,9 @@ case $1 in
 		;;
 	installrc)
 		InstallVimRc
+		;;
+	buildycm)
+		BuildYcm
 		;;
 	clean)
 		Clean
