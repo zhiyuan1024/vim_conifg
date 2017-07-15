@@ -5,9 +5,12 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'majutsushi/tagbar'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'fatih/vim-go'
 call vundle#end()
 
 filetype plugin indent on
+set autoindent
+
 set number
 set laststatus=2
 set tabstop=4
