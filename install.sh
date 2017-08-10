@@ -48,6 +48,7 @@ Usage() {
 
 if [ $# != 1 ]; then
 	Usage
+	exit
 fi
 
 case $1 in
