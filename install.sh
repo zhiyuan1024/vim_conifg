@@ -1,7 +1,8 @@
-#!/bin/bash -ex
+#!/bin/bash
 
 InstallVimRc() {
 	install vimrc ~/.vimrc
+	InstallPlugin
 }
 
 InstallVundle() {
@@ -33,7 +34,6 @@ BuildYcm() {
 Install() {
 	InstallVundle
 	InstallVimRc
-	InstallPlugin
 	BuildYcm
 }
 

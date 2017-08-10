@@ -6,6 +6,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'majutsushi/tagbar'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'fatih/vim-go'
+Plugin 'scrooloose/nerdtree'
 call vundle#end()
 
 filetype plugin indent on
@@ -21,3 +22,5 @@ set incsearch
 set hlsearch
 set magic
 
+" NERDTree
+let NERDTreeAutoDeleteBuffer=1
