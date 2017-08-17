@@ -24,3 +24,6 @@ set magic
 
 " NERDTree
 let NERDTreeAutoDeleteBuffer=1
+
+"Tagbar
+let g:tagbar_sort = 0
