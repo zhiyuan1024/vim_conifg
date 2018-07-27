@@ -42,10 +42,10 @@ BuildYcmForUbuntu() {
 BuildYcm() {
 	os=$(hostnamectl| grep Operating | awk -F ':' '{print $2}')
 	case $os in
-		*centos*|*fedora*)
+		*centos*|*fedora*|*Fedora*)
 		BuildYcmForRedhat
 		;;
-		*ubuntu*|*elementary*)
+		*ubuntu*|*elementary*|*Ubuntu*)
 		BuildYcmForUbuntu
 		;;
 		*)
