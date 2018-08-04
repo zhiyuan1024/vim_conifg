@@ -6,6 +6,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'majutsushi/tagbar'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'fatih/vim-go'
+Plugin 'fatih/molokai'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-fugitive'
 call vundle#end()
@@ -28,3 +29,11 @@ let NERDTreeAutoDeleteBuffer=1
 
 "Tagbar
 let g:tagbar_sort = 0
+
+let g:go_highlight_types = 1
+let g:go_highlight_functions = 1
+
+"colorscheme
+let g:rehash256 = 1
+let g:molokai_original = 1
+colorscheme molokai
